@@ -98,7 +98,7 @@ for (let i = 0; i < 3 ; i++) {
 
   }
 }
-
+alert('the answer is 28');
 
 let q8 =Number( prompt('in what year i graduated?'));
 for (let i = 0; i < 3 ; i++) {
@@ -119,6 +119,8 @@ for (let i = 0; i < 3 ; i++) {
   }
 }
 
+alert('the answer is 2017');
+
 let q9 =Number( prompt('when was i born?'));
 for (let i = 0; i < 3 ; i++) {
 
@@ -137,6 +139,9 @@ for (let i = 0; i < 3 ; i++) {
 
   }
 }
+
+alert('the answer is 1993');
+
 
 let q10 =Number( prompt('what is my favorite number?'));
 for (let i = 0; i < 3 ; i++) {
@@ -157,6 +162,8 @@ for (let i = 0; i < 3 ; i++) {
   }
 }
 
+alert('the answer is 7');
+
 let q11 =Number( prompt('how much time i traveled?'));
 for (let i = 0; i < 3 ; i++) {
 
@@ -175,6 +182,8 @@ for (let i = 0; i < 3 ; i++) {
 
   }
 }
+
+alert('the answer is 1');
 
 for (let i = 0; i < 6; i++) {
   let Countscour=i+1;
