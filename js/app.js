@@ -56,125 +56,125 @@
 // alert('let\'s go ' + userName + ' to correct your info if have a wrong answer ;)');
 
 
-// let q6 =Number (prompt('how much is my experience?'));
-// for (let i = 0; i < 3 ; i++) {
+let q6 =Number (prompt('how much is my experience?'));
+for (let i = 0; i < 3 ; i++) {
 
 
-//   if (q6===2) {
-//     alert('correct');
-//     break;
+  if (q6===2) {
+    alert('correct');
+    break;
 
-//   } else if (q6>2) {
-//     alert('too higth');
-//     q6= Number( prompt('how much is my experience?'));
+  } else if (q6>2) {
+    alert('too higth');
+    q6= Number( prompt('how much is my experience?'));
 
-//   }
-//   else {
-//     alert(' too low');
-//     q6=Number( prompt('how much is my experience?'));
+  }
+  else {
+    alert(' too low');
+    q6=Number( prompt('how much is my experience?'));
 
-//   }
+  }
 
-// }
+}
 
-// alert('the answer is 2');
-
-
-// let q7 =Number( prompt('how much old am I?'));
-// for (let i = 0; i < 3 ; i++) {
+alert('the answer is 2');
 
 
-//   if (q7===28) {
-//     alert('correct');
-//     break;
-
-//   } else if (q7>28) {
-//     alert('too higth');
-//     q7 =Number( prompt('how much old am I?'));
-
-//   } else {
-//     alert(' too low');
-//     q7 =Number( prompt('how much old am I?'));
-
-//   }
-// }
+let q7 =Number( prompt('how much old am I?'));
+for (let i = 0; i < 3 ; i++) {
 
 
-// let q8 =Number( prompt('in what year i graduated?'));
-// for (let i = 0; i < 3 ; i++) {
+  if (q7===28) {
+    alert('correct');
+    break;
+
+  } else if (q7>28) {
+    alert('too higth');
+    q7 =Number( prompt('how much old am I?'));
+
+  } else {
+    alert(' too low');
+    q7 =Number( prompt('how much old am I?'));
+
+  }
+}
 
 
-//   if (q8===2017) {
-//     alert('correct');
-//     break;
-
-//   } else if (q8>2017) {
-//     alert('too higth');
-//     q8 =Number( prompt('in what year i graduated?'));
-
-//   } else {
-//     alert(' too low');
-//     q8 =Number( prompt('in what year i graduated?'));
-
-//   }
-// }
-
-// let q9 =Number( prompt('when was i born?'));
-// for (let i = 0; i < 3 ; i++) {
+let q8 =Number( prompt('in what year i graduated?'));
+for (let i = 0; i < 3 ; i++) {
 
 
-//   if (q9===1993) {
-//     alert('correct');
-//     break;
+  if (q8===2017) {
+    alert('correct');
+    break;
 
-//   } else if (q9>1993) {
-//     alert('too higth');
-//     q9 =Number( prompt('when was i born?'));
+  } else if (q8>2017) {
+    alert('too higth');
+    q8 =Number( prompt('in what year i graduated?'));
 
-//   } else {
-//     alert(' too low');
-//     q9 =Number( prompt('when was i born?'));
+  } else {
+    alert(' too low');
+    q8 =Number( prompt('in what year i graduated?'));
 
-//   }
-// }
+  }
+}
 
-// let q10 =Number( prompt('what is my favorite number?'));
-// for (let i = 0; i < 3 ; i++) {
-
-
-//   if (q10===7) {
-//     alert('correct');
-//     break;
-
-//   } else if (q10>7) {
-//     alert('too higth');
-//     q10 =Number( prompt('what is my favorite number?'));
-
-//   } else {
-//     alert(' too low');
-//     q10 =Number( prompt('what is my favorite number?'));
-
-//   }
-// }
-
-// let q11 =Number( prompt('how much time i traveled?'));
-// for (let i = 0; i < 3 ; i++) {
+let q9 =Number( prompt('when was i born?'));
+for (let i = 0; i < 3 ; i++) {
 
 
-//   if (q11===1) {
-//     alert('correct');
-//     break;
+  if (q9===1993) {
+    alert('correct');
+    break;
 
-//   } else if (q11>1) {
-//     alert('too higth');
-//     q11 =Number( prompt('how much time i traveled?'));
+  } else if (q9>1993) {
+    alert('too higth');
+    q9 =Number( prompt('when was i born?'));
 
-//   } else {
-//     alert(' too low');
-//     q11 =Number( prompt('how much time i traveled?'));
+  } else {
+    alert(' too low');
+    q9 =Number( prompt('when was i born?'));
 
-//   }
-// }
+  }
+}
+
+let q10 =Number( prompt('what is my favorite number?'));
+for (let i = 0; i < 3 ; i++) {
+
+
+  if (q10===7) {
+    alert('correct');
+    break;
+
+  } else if (q10>7) {
+    alert('too higth');
+    q10 =Number( prompt('what is my favorite number?'));
+
+  } else {
+    alert(' too low');
+    q10 =Number( prompt('what is my favorite number?'));
+
+  }
+}
+
+let q11 =Number( prompt('how much time i traveled?'));
+for (let i = 0; i < 3 ; i++) {
+
+
+  if (q11===1) {
+    alert('correct');
+    break;
+
+  } else if (q11>1) {
+    alert('too higth');
+    q11 =Number( prompt('how much time i traveled?'));
+
+  } else {
+    alert(' too low');
+    q11 =Number( prompt('how much time i traveled?'));
+
+  }
+}
 
 for (let i = 0; i < 6; i++) {
   let Countscour=i+1;
