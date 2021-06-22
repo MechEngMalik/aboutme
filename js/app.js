@@ -175,16 +175,82 @@
 
 //   }
 // }
-let w1 = prompt('what is my favorite type of car?').toLowerCase;
-let arraycar = ['bmw' , 'marcedes' , 'toyota'];
 
-for (let i = 0; i <= arraycar.length; i++) {
-
-  if (w1===arraycar) {
-    alert('gg');
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['bmw','marcedes','ford'];
+  let userInput =prompt('what is my favorite type of cars?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
     break;
 
-  } else {prompt('what is my favorite type of car?').toLowerCase;
+  }else{alert('wrong answer :D, try again');}
 
-  }
 }
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['malik','mohammad','ahmad'];
+  let userInput =prompt('what is my favorite name?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
+    break;
+
+  }else{alert('wrong answer :D, try again');}
+
+}
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['mansaf','bezza','craps'];
+  let userInput =prompt('what is my favorite type of food?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
+    break;
+
+  }else{alert('wrong answer :D, try again');}
+
+}
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['football','boxing','basketball'];
+  let userInput =prompt('what is my favorite type of sport?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
+    break;
+
+  }else{alert('wrong answer :D, try again');}
+
+}
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['water','coffe','tea'];
+  let userInput =prompt('what is my favorite type of drinks?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
+    break;
+
+  }else{alert('wrong answer :D, try again');}
+
+}
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['brown','black','red'];
+  let userInput =prompt('what is my favorite type of color?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
+    break;
+
+  }else{alert('wrong answer :D, try again');}
+
+}
+for (let i = 0; i < 6; i++) {
+  let Countscour=i+1;
+  let qarr= ['jordan','algeria','palestine'];
+  let userInput =prompt('what is my favorite countrys?').toLowerCase;
+  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
+    alert('well done ' + ' you did it in [' + Countscour + '] time');
+    break;
+
+  }else{alert('wrong answer :D, try again');}
+
+}
+
