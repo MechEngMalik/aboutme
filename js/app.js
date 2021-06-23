@@ -1,10 +1,17 @@
 'use strict';
+// eslint-disable-next-line no-unused-vars
+// let userName = prompt('what is your name?');
+// alert('wellcome Mr/Ms ' + userName+ ' to my world' );
+// alert('let\'s go ' + userName + ' to see some quastion ;)');
+
+// let score = 0;
 // let q1 = prompt('do you know me from befor?').toLowerCase();
 
 // switch (q1) {
 // case 'yes':
 // case 'y':
 //   alert('ok nice ;)');
+//   score++;
 //   break;
 // default:
 //   alert('sorry for you X)');
@@ -15,6 +22,7 @@
 // case 'yes':
 // case 'y':
 //   alert('ok nice ;)');
+//   score++;
 //   break;
 // default:
 //   alert('sorry for you X)');
@@ -25,6 +33,7 @@
 // case 'yes':
 // case 'y':
 //   alert('correct answer ;)');
+//   score++;
 //   break;
 // default:
 //   alert('wrong answer X)');
@@ -35,6 +44,7 @@
 // case 'yes':
 // case 'y':
 //   alert('ok nice ;)');
+//   score++;
 //   break;
 // default:
 //   alert('sorry for you X)');
@@ -45,57 +55,48 @@
 // case 'yes':
 // case 'y':
 //   alert('ok nice ;)');
+//   score++;
 //   break;
 // default:
 //   alert('sorry for you X)');
 
 // }
-// // eslint-disable-next-line no-unused-vars
-// let userName = prompt('what is your name?');
-// alert('wellcome Mr/Ms ' + userName+ ' to my world' );
-// alert('let\'s go ' + userName + ' to correct your info if have a wrong answer ;)');
 
 
 
-for (let i = 0; i <= 4 ; i++) {
-  let q6 =Number (prompt('how much is my experience?'));
+// for (let i = 0; i <= 4 ; i++) {
+//   let q6 =Number (prompt('how much is my experience?'));
 
 
-  if (q6===2) {
-    alert('correct');
-    break;
+//   if (q6===2) {
+//     alert('correct');
+//     // score++;
+//     break;
 
-  } else if (q6>2) {
-    alert('too higth');
-    q6= Number( prompt('how much is my experience?'));
+//   } else if (q6 > 2) {
+//     alert('too higth');
 
+//   }
+//   else {
+
+//     alert(' too low');
+
+//   }
+//   if(i == 4){
+//     alert('the answer is 2');}
+// }
+
+let qarr = ['football','boxing','basketball'];
+for (let i = 1; i <= 6; i++) {
+  let q7 =  prompt('what is my favorite type of sport?').toLowerCase;
+  for(let j = 0; j < qarr.length; j++) {
+    if(q7 == qarr[j]) {
+      alert('well done lets see your final score');
+      // score++;
+      break;
+
+    }
   }
-  else {
-    alert(' too low');
-    q6=Number( prompt('how much is my experience?'));
-    i = 5;
-
-  }
-  if(i === 4){
-  alert('the answer is 2');
 }
+alert('your score  ' + 'score' + '/7');
 
-
-}
-
-alert('the answer is 2');
-
-
-
-
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['football','boxing','basketball'];
-  let userInput =prompt('what is my favorite type of sport?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
-
-  }else{alert('wrong answer :D, try again');}
-
-}
