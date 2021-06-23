@@ -56,8 +56,9 @@
 // alert('let\'s go ' + userName + ' to correct your info if have a wrong answer ;)');
 
 
-let q6 =Number (prompt('how much is my experience?'));
-for (let i = 0; i < 3 ; i++) {
+
+for (let i = 0; i <= 4 ; i++) {
+  let q6 =Number (prompt('how much is my experience?'));
 
 
   if (q6===2) {
@@ -72,6 +73,7 @@ for (let i = 0; i < 3 ; i++) {
   else {
     alert(' too low');
     q6=Number( prompt('how much is my experience?'));
+    i = 5;
 
   }
 
@@ -81,39 +83,7 @@ alert('the answer is 2');
 
 
 
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['bmw','marcedes','ford'];
-  let userInput =prompt('what is my favorite type of cars?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
 
-  }else{alert('wrong answer :D, try again');}
-
-}
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['malik','mohammad','ahmad'];
-  let userInput =prompt('what is my favorite name?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
-
-  }else{alert('wrong answer :D, try again');}
-
-}
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['mansaf','bezza','craps'];
-  let userInput =prompt('what is my favorite type of food?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
-
-  }else{alert('wrong answer :D, try again');}
-
-}
 for (let i = 0; i < 6; i++) {
   let Countscour=i+1;
   let qarr= ['football','boxing','basketball'];
@@ -125,37 +95,3 @@ for (let i = 0; i < 6; i++) {
   }else{alert('wrong answer :D, try again');}
 
 }
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['water','coffe','tea'];
-  let userInput =prompt('what is my favorite type of drinks?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
-
-  }else{alert('wrong answer :D, try again');}
-
-}
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['brown','black','red'];
-  let userInput =prompt('what is my favorite type of color?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
-
-  }else{alert('wrong answer :D, try again');}
-
-}
-for (let i = 0; i < 6; i++) {
-  let Countscour=i+1;
-  let qarr= ['jordan','algeria','palestine'];
-  let userInput =prompt('what is my favorite countrys?').toLowerCase;
-  if(qarr[0]===userInput || qarr[1] === userInput || qarr[2]===userInput){
-    alert('well done ' + ' you did it in [' + Countscour + '] time');
-    break;
-
-  }else{alert('wrong answer :D, try again');}
-
-}
-
