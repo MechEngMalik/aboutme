@@ -1,6 +1,6 @@
 'use strict';
 
-eslint-disable-next-line no-unused-vars
+
 let userName = prompt('what is your name?');
 alert('wellcome Mr/Ms ' + userName+ ' to my world' );
 alert('let\'s go ' + userName + ' to see some quastion ;)');
@@ -22,7 +22,7 @@ function tq1(){
     break;
   default:
     alert('sorry for you X)');
-  
+
   }
 }
 
@@ -44,9 +44,9 @@ function tq2(){
     break;
   default:
     alert('sorry for you X)');
-  
+
   }
-  
+
 
 
 }
@@ -67,7 +67,7 @@ function tq3(){
     break;
   default:
     alert('wrong answer X)');
-  
+
   }
 
 }
@@ -88,9 +88,9 @@ function tq4(){
     break;
   default:
     alert('sorry for you X)');
-  
+
   }
-  
+
 
 }
 
@@ -110,9 +110,9 @@ function tq5(){
     break;
   default:
     alert('sorry for you X)');
-  
+
   }
-  
+
 }
 
 tq5();
@@ -121,26 +121,26 @@ tq5();
 function tq6(){
   for (let i = 0; i <= 4 ; i++) {
     let q6 =Number (prompt('how much is my experience?'));
-  
-  
+
+
     if (q6===2) {
       alert('correct');
       // score++;
       break;
-  
+
     } else if (q6 > 2) {
       alert('too higth');
-  
+
     }
     else {
-  
+
       alert(' too low');
-  
+
     }
     if(i == 4){
       alert('the answer is 2');}
   }
-  
+
 
 }
 
@@ -154,30 +154,30 @@ tq6();
 
 function tq7(){
 
-let j=0;
+  let j=0;
 
-let qarr = ['football','boxing','basketball'];
-for (let i = 1; i <= 6; i++) {
-  let q7 =  prompt('what is my favorite type of sport?');
-  for( j = 0; j < qarr.length; j++) {
-    if(q7 == qarr[j]) {
-      alert('well done lets see your final score');
-      // score++;
-      break;
+  let qarr = ['football','boxing','basketball'];
+  for (let i = 1; i <= 6; i++) {
+    let q7 =  prompt('what is my favorite type of sport?');
+    for( j = 0; j < qarr.length; j++) {
+      if(q7 == qarr[j]) {
+        alert('well done lets see your final score');
+        // score++;
+        break;
 
+      }
     }
+    if(q7 == qarr[j]){
+      break;
+    }
+
+
+
+
   }
-  if(q7 == qarr[j]){
-    break;
-  }
-
-
-
-
-}
 }
 
 
 tq7();
 
-alert('your score  ' + 'score' + '/7');
+alert('your score  ' + score + '/7');
